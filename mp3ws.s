@@ -1550,7 +1550,7 @@ addiu a2, r0, (SCREEN_W/2) //Fix X Position of Random Won Item
 .dh ((SCREEN_W/2)+16) //Fix X Position of P2 Center Minigame HUD
 
 .org 0x80101884
-.dh ((SCREEN_W/2)-128) //Fix X Position of P3 Center Minigame HUD
+.dh ((SCREEN_W/2)+16) //Fix X Position of P3 Center Minigame HUD
 
 .org 0x80101888
 .dh ((SCREEN_W/2)+16) //Fix X Position of P4 Center Minigame HUD
