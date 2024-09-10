@@ -20,3 +20,7 @@ The output of building will be named "mp3ws.z64" and will be slightly smaller th
 Credits
 -------------
 Thanks to typhloquil for designing some edited graphics. Thanks to Rainchus for testing the patch.
+
+Video
+-------------
+A link to the video can be found at https://www.youtube.com/watch?v=s4GdUCae6YU.
