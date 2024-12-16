@@ -7189,17 +7189,17 @@ li.u at, -((SCREEN_W_FLOAT*450)/320) //Fix X Position of P1 in Duel Minigame Res
 .org 0x80106FE8
 li.u a1, ((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
 
-.org 0x8010701C
+.org 0x80107018
 li.u a1, ((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
 
 .org 0x80107314
 li.u at, ((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
 
 .org 0x80108798
-li.u at, ((SCREEN_W_FLOAT*700)/320) //Fix X Position of Tumble in Duel Minigame Results
+li.u a1, ((SCREEN_W_FLOAT*700)/320) //Fix X Position of Tumble in Duel Minigame Results
 
 .org 0x801087B0
-li.u at, ((SCREEN_W_FLOAT*700)/320) //Fix X Position of Tumble in Duel Minigame Results
+li.u a1, ((SCREEN_W_FLOAT*700)/320) //Fix X Position of Tumble in Duel Minigame Results
 
 .org 0x80108860
 li.u at, ((SCREEN_W_FLOAT*700)/320) //Fix X Position of Tumble in Duel Minigame Results
