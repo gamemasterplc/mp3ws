@@ -7183,14 +7183,14 @@ li.u a1, -((SCREEN_W_FLOAT*450)/320) //Fix X Position of P1 in Duel Minigame Res
 .org 0x80106A10
 li.u a1, -((SCREEN_W_FLOAT*450)/320) //Fix X Position of P1 in Duel Minigame Results
 
-.org 0x80106DE8
+.org 0x80106D78
 li.u at, -((SCREEN_W_FLOAT*450)/320) //Fix X Position of P1 in Duel Minigame Results
 
 .org 0x80106FE8
-li.u a1, -((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
+li.u a1, ((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
 
 .org 0x8010701C
-li.u a1, -((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
+li.u a1, ((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
 
 .org 0x80107314
 li.u at, ((SCREEN_W_FLOAT*450)/320) //Fix X Position of P2 in Duel Minigame Results
